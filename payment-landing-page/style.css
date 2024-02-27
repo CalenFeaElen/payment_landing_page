@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Base Styles*/
+
+body {
+  background: url("./img/Desktop-Cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.body-container {
+  margin: 5%;
+  background-color: #1e1e1e;
+  border-radius: 26px;
+}
+
+/* Header Styles */
+.logo {
+  margin-left: 10px;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row;
+  min-width: 540px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+nav li:hover {
+  color: #e9dcff;
+}
+
+.login {
+  padding-right: 90px;
+}
+
+.login button {
+  background-color: #e9dcff;
+  height: 55px;
+  width: 130px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Main Styles */
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 90px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.app-download h1 {
+  font-size: 55px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.app-download h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e9dcff;
+  text-transform: uppercase;
+}
+
+.app-download button {
+  background-color: #e9dcff;
+  height: 55px;
+  width: 130px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.preview {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  max-height: 682px;
+}
